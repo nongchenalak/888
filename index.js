@@ -72,7 +72,7 @@ app.listen(PORT, () => {
   console.log(`🌐 Web server & API is running on port ${PORT}`);
 });
 
-const GOOGLE_SHEET_API_URL = 'https://script.google.com/macros/s/AKfycbyWCMlDFBEiS0X_J2ZEkQLN_-8kFPZ6U-xV4n9ckpt9KZnFU9ztQV8BfujBX3nHE4In/exec';
+const GOOGLE_SHEET_API_URL = 'https://script.google.com/macros/s/AKfycbxjtHmGX7FNdMXR288HyecknAsiWbFfwc3JymXKg7o7fhrGZB9_vZDk8h4__EAifKg/exec';
 const BOT_TOKEN = process.env.BOT_TOKEN;
 
 let configData = {
